@@ -1,0 +1,40 @@
+{
+  "position": {
+    "id": 1,
+    "title": "Senior Full-Stack Engineer",
+    "description": "Develop and maintain software applications.",
+    "status": "Open",
+    "isVisible": true,
+    "location": "Remote",
+    "jobDescription": "Full-stack development",
+    "companyId": 1,
+    "interviewFlowId": 1,
+    "salaryMin": 50000,
+    "salaryMax": 80000,
+    "employmentType": "Full-time",
+    "benefits": "Health insurance, 401k, Paid time off",
+    "contactInfo": "hr@lti.com",
+    "requirements": "3+ years of experience in software development, knowledge in React and Node.js",
+    "responsibilities": "Develop, test, and maintain software solutions.",
+    "companyDescription": "LTI is a leading HR solutions provider.",
+    "applicationDeadline": "2024-12-31T00:00:00.000Z"
+  },
+  "interviewFlow": {
+    "interviewFlow": {
+      "positionName": "Senior Full-Stack Engineer",
+      "interviewFlow": {
+        "id": 1,
+        "description": "Standard development interview process",
+        "interviewSteps": [
+          { "id": 1, "interviewFlowId": 1, "interviewTypeId": 1, "name": "Initial Screening", "orderIndex": 1 },
+          { "id": 2, "interviewFlowId": 1, "interviewTypeId": 2, "name": "Technical Interview", "orderIndex": 2 },
+          { "id": 3, "interviewFlowId": 1, "interviewTypeId": 3, "name": "Manager Interview", "orderIndex": 3 }
+        ]
+      }
+    }
+  },
+  "candidates": [
+    { "fullName": "John Doe", "currentInterviewStep": "Technical Interview", "candidateId": 1, "applicationId": 1, "averageScore": 5 },
+    { "fullName": "Jane Smith", "currentInterviewStep": "Initial Screening", "candidateId": 2, "applicationId": 3, "averageScore": 0 }
+  ]
+} 
